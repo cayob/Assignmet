@@ -1,0 +1,82 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing:border-box;
+  }
+  
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+  }
+  
+  main{
+    width:600px;
+    height:400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+    margin:auto;
+  }
+  
+  .sedan{
+    width:200px;
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    background-color:hsl(31, 77%, 52%);
+    padding:30px;
+  }
+  
+  .suv{
+    width:200px;
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    background-color:hsl(184, 100%, 22%);
+    padding:30px;
+  }
+  
+  .luxury{
+    padding:30px;
+    width:200px;
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    background-color: hsl(179, 100%, 13%);
+  }
+  
+  img{
+    width:40px;
+    height:40px;
+  }
+  
+  p{
+    font-size:15px;
+    font-weight:400;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    padding:20px 0px;
+    
+  }
+  
+  h1{
+    padding:20px 0px;
+    font-size:15px;
+    font-weight:700;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  
+  button, h1{
+    color: hsl(0,0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  
+  
+  
+  
